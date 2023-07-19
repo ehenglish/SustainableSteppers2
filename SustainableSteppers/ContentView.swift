@@ -13,7 +13,7 @@ struct ContentView: View {
         "fact1", "fact2", "fact3"]
     @State private var randomFact = ""
     @State private var i = 0
-
+    
     var body: some View {
         ZStack {
             Color(.systemGreen)
@@ -34,35 +34,39 @@ struct ContentView: View {
                 Text("Stepping into a sustainable world")
                     .padding(.bottom, 3.0)
                     .italic()
-
+                
                 Spacer()
                 
                 Button("Quick Fact") {
-                    if i == funFacts.count {
-                       randomFact = ""
-                    }
-                    else {
+                    if i != funFacts.count {
                         randomFact = funFacts[i]
                         i+=1
+                    }
+                    else {
+                        randomFact = ""
                     }
                 }
                 .padding(.top)
             }
-                .padding(.bottom, 200.0)
-                .buttonStyle(BorderedProminentButtonStyle())
-                .tint(Color(hue: 0.365, saturation: 0.38, brightness: 0.3))
+            .padding(.bottom, 200.0)
+            .buttonStyle(BorderedProminentButtonStyle())
+            .tint(Color(hue: 0.365, saturation: 0.38, brightness: 0.3))
             Spacer()
             Text(randomFact)
                 .padding(.top, 450.0)
+            NavigationLink(destination: AboutUs()) {
+                Text("Click here to begin!")
+                    .foregroundColor(Color.purple)
+            }
+            .padding(.top,700.0)
         }
-    
     }
 }
-   
-        
-        struct ContentView_Previews: PreviewProvider {
-            static var previews: some View {
-                ContentView()
-            }
-        }
     
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
+

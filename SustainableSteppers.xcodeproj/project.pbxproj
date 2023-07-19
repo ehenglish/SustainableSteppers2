@@ -11,6 +11,7 @@
 		86D3DF652A65C4A100ABCEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3DF642A65C4A100ABCEE3 /* ContentView.swift */; };
 		86D3DF672A65C4A200ABCEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D3DF662A65C4A200ABCEE3 /* Assets.xcassets */; };
 		86D3DF6A2A65C4A200ABCEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D3DF692A65C4A200ABCEE3 /* Preview Assets.xcassets */; };
+		86FE8C292A682E16005AC9DF /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE8C282A682E16005AC9DF /* AboutUs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		86D3DF642A65C4A100ABCEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86D3DF662A65C4A200ABCEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86D3DF692A65C4A200ABCEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86FE8C282A682E16005AC9DF /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				86D3DF622A65C4A100ABCEE3 /* SustainableSteppersApp.swift */,
 				86D3DF642A65C4A100ABCEE3 /* ContentView.swift */,
+				86FE8C282A682E16005AC9DF /* AboutUs.swift */,
 				86D3DF662A65C4A200ABCEE3 /* Assets.xcassets */,
 				86D3DF682A65C4A200ABCEE3 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FE8C292A682E16005AC9DF /* AboutUs.swift in Sources */,
 				86D3DF652A65C4A100ABCEE3 /* ContentView.swift in Sources */,
 				86D3DF632A65C4A100ABCEE3 /* SustainableSteppersApp.swift in Sources */,
 			);
