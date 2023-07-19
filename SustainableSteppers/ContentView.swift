@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     @State private var funFacts = [
         "fact1", "fact2", "fact3"]

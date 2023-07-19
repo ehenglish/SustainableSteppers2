@@ -16,7 +16,7 @@ struct AboutUs: View {
                 .foregroundColor(Color.purple)
                 .multilineTextAlignment(.center)
                 .padding(.bottom)
-            
+             
             Text("Sustainable Steppers aims to help fight against climate change by helping YOU reduce your carbon footprint!")
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 35.0)
