@@ -21,10 +21,10 @@ struct AboutUs: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 35.0)
                 .padding(.bottom, 5.0)
-
-            Text("🌍")
-                .font(.largeTitle)
-            
+                
+                Text("🌍")
+                    .font(.largeTitle)
+        
             Text("Information about climate change here.")
                 .multilineTextAlignment(.center)
                 .padding([.top, .leading, .trailing], 20.0)
