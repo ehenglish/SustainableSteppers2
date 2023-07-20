@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var funFacts = [
-        "fact1", "fact2", "fact3"]
+        "fact1", "fact2", "fact3", "fact4"]
     @State private var randomFact = ""
     @State private var i = 0
     
