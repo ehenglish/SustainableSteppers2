@@ -15,8 +15,10 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color(.systemGreen)
+            RadialGradient(colors: [Color.accentColor, Color.green] , center: .center, startRadius: 200, endRadius: 400)
                 .ignoresSafeArea()
+            
+            
             VStack(alignment: .center) {
                 Text("Welcome to the Sustainable Steppers!")
                     .font(.largeTitle)
